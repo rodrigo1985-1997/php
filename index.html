@@ -1,37 +1,35 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>promedio notas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
-<body bgcolor="aqua">
-    <form method="POST" action="calcular.php">
-        <table border="1">
-            <tr>
-                <td>parcial 1: </td>
-                <td><input type="text" name="par1"></td>
-            </tr>
-            <tr>
-                <td>parcial 2: </td>
-                <td><input type="text" name="par2"></td>
-            </tr>
-            <tr>
-                <td>parcial 3: </td>
-                <td><input type="text" name="par3"></td>
-            </tr>
-            <tr>
-                <td>examen final: </td>
-                <td><input type="text" name="exaf"></td>
-            </tr>
-            <tr>
-                <td>trabajo final: </td>
-                <td><input type="text" name="traf"></td>
-            </tr>
-            <tr>
-                <td><input type="submit" value="enviar"></td>
-                <td><input type="reset" value="limpiar"></td>
-            </tr>
-        </table>
-</body>
+<HEAD>
+    <TITLE>Calcular el salario de un vendedor</TITLE>
+</HEAD>
+
+<BODY>
+    <CENTER>
+        <H1>Calcular el salario de un vendedor</H1>
+    </CENTER>
+    <BR>
+    <BR>
+    <FORM NAME="ejercicio2" action="ventas.php" METHOD='post'>
+
+        Nombre del vendedor: <INPUT TYPE="text" value="" name="nombre" SIZE="20">
+        <BR>
+        <BR>
+        Cantidad de automoviles vendidos: <INPUT TYPE="text" value="" name="cantidad" SIZE="20">
+        <BR>
+        <BR>
+        Precio total de automoviles vendidos: <INPUT TYPE="text" value="" name="precioTotal" SIZE="20">
+        <BR>
+        <BR>
+        <INPUT TYPE="submit" VALUE="Enviar" style='width:80px; height:30px'>
+
+</BODY>
 
 </html>
