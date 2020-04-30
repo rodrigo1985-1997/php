@@ -1,25 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>promedio notas</title>
 </head>
 
-<BODY>
-    <CENTER>
-        <H1>Calcular la cantidad de dinero para algunas areas de la salud</H1>
-    </CENTER>
-    <BR>
-    <BR>
-    <FORM NAME="ejercicio4" action="presupuesto.php" METHOD='post'>
-
-        Monto presupuestal: <INPUT TYPE="text" value="" name="monto" SIZE="20">
-        <BR>
-        <BR>
-        <INPUT TYPE="submit" VALUE="Enviar" style='width:80px; height:30px'>
-
-</BODY>
+<body bgcolor="aqua">
+    <form method="POST" action="calcular.php">
+        <table border="1">
+            <tr>
+                <td>parcial 1: </td>
+                <td><input type="text" name="par1"></td>
+            </tr>
+            <tr>
+                <td>parcial 2: </td>
+                <td><input type="text" name="par2"></td>
+            </tr>
+            <tr>
+                <td>parcial 3: </td>
+                <td><input type="text" name="par3"></td>
+            </tr>
+            <tr>
+                <td>examen final: </td>
+                <td><input type="text" name="exaf"></td>
+            </tr>
+            <tr>
+                <td>trabajo final: </td>
+                <td><input type="text" name="traf"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="enviar"></td>
+                <td><input type="reset" value="limpiar"></td>
+            </tr>
+        </table>
+</body>
 
 </html>
